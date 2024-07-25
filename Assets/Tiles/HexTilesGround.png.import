@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1teriyo4mco3"
-path="res://.godot/imported/godot_add_to_autoload.png-9ecb31fa611b88820fc8248bb9c4270f.ctex"
+uid="uid://cewhfm5id5ajd"
+path="res://.godot/imported/HexTilesGround.png-aa2b9bfa30748876385be0a6dcda8ec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Docs/godot_add_to_autoload.png"
-dest_files=["res://.godot/imported/godot_add_to_autoload.png-9ecb31fa611b88820fc8248bb9c4270f.ctex"]
+source_file="res://Assets/Tiles/HexTilesGround.png"
+dest_files=["res://.godot/imported/HexTilesGround.png-aa2b9bfa30748876385be0a6dcda8ec8.ctex"]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://di6xqdw1kp6o7"]
+[gd_scene load_steps=2 format=3 uid="uid://0338llc5x2eq"]
 
 [ext_resource type="Script" path="res://Menu.gd" id="1_7s3nn"]
 
@@ -22,12 +22,16 @@ layout_mode = 2
 [node name="Play" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Play Game"
+icon_alignment = 1
 
 [node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Exit"
+icon_alignment = 1
 
 [node name="Spare Button" type="Button" parent="MarginContainer/VBoxContainer"]
+visible = false
+visibility_layer = 257
 layout_mode = 2
 text = "(Spare) "
 
