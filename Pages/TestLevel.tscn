@@ -40,3 +40,20 @@ script = ExtResource("2_03tad")
 
 [node name="SceneCamera" type="Camera2D" parent="."]
 script = ExtResource("3_3wj8y")
+
+[node name="MarginContainer" type="MarginContainer" parent="SceneCamera"]
+offset_left = -575.0
+offset_top = -323.0
+offset_right = -522.0
+offset_bottom = -269.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SceneCamera/MarginContainer"]
+layout_mode = 2
+
+[node name="MenuButton" type="MenuButton" parent="SceneCamera/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Menu"
+vertical_icon_alignment = 0
+switch_on_hover = true
