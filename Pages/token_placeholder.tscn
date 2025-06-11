@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://b2keh6buxdrkt"]
+[gd_scene load_steps=2 format=3 uid="uid://b2keh6buxdrkt"]
+
+[ext_resource type="Script" uid="uid://bo8erjc48syp3" path="res://Pages/token_placeholder.gd" id="1_3iamg"]
 
 [node name="TokenPlaceholder" type="Sprite2D"]
+script = ExtResource("1_3iamg")
