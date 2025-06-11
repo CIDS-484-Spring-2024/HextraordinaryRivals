@@ -12,7 +12,7 @@ func _ready():
 #also changes scene back to the main menu. The disgusting, aesthetically appalling main menu
 #TODO: currently does not reset the map as there is nothing to reset
 func MenuButton(ID):
-	#Godot Switch function
+	#Godot Switch function. Code is in the above video, but I did this before I watched that section
 	match(ID):
 		0:
 			#TODO: future site of the reset button

@@ -1,0 +1,102 @@
+[gd_scene load_steps=17 format=3 uid="uid://dos1kjl3cof31"]
+
+[ext_resource type="Texture2D" uid="uid://duvjce3872sbe" path="res://Assets/Tokens/TokenSprites/Air1.png" id="1_r8k4x"]
+[ext_resource type="Texture2D" uid="uid://wbnkyttoak0n" path="res://Assets/Tokens/TokenSprites/Air2.png" id="2_7f1mq"]
+[ext_resource type="Texture2D" uid="uid://5nnc8om6yyfj" path="res://Assets/Tokens/TokenSprites/Air3.png" id="3_capjd"]
+[ext_resource type="Texture2D" uid="uid://dak1x8d6mef26" path="res://Assets/Tokens/TokenSprites/Air4.png" id="4_0a647"]
+[ext_resource type="Texture2D" uid="uid://bie0brbgurlpf" path="res://Assets/Tokens/TokenSprites/Fire1.png" id="5_08yrc"]
+[ext_resource type="Texture2D" uid="uid://drx2aaicdweb" path="res://Assets/Tokens/TokenSprites/Fire2.png" id="6_ycxwt"]
+[ext_resource type="Texture2D" uid="uid://bnfrmcp4agnmj" path="res://Assets/Tokens/TokenSprites/Fire3.png" id="7_nf11r"]
+[ext_resource type="Texture2D" uid="uid://bebnk7fivll2o" path="res://Assets/Tokens/TokenSprites/Fire4.png" id="8_tvrj8"]
+[ext_resource type="Texture2D" uid="uid://dlkvxo3rhgmte" path="res://Assets/Tokens/TokenSprites/Water1.png" id="9_2n75r"]
+[ext_resource type="Texture2D" uid="uid://dvajgnng7l4fq" path="res://Assets/Tokens/TokenSprites/Water2.png" id="10_riiu4"]
+[ext_resource type="Texture2D" uid="uid://1ceqp8b6oeyq" path="res://Assets/Tokens/TokenSprites/Water3.png" id="11_lf2fa"]
+[ext_resource type="Texture2D" uid="uid://7aqatn8hgdby" path="res://Assets/Tokens/TokenSprites/Water4.png" id="12_fw74w"]
+[ext_resource type="Texture2D" uid="uid://cu6dkmrj3b7aj" path="res://Assets/Tokens/TokenSprites/Earth1.png" id="13_84ww0"]
+[ext_resource type="Texture2D" uid="uid://uijbb6dcxhbf" path="res://Assets/Tokens/TokenSprites/Earth2.png" id="14_qeimg"]
+[ext_resource type="Texture2D" uid="uid://dphmmx3lpgedr" path="res://Assets/Tokens/TokenSprites/Earth3.png" id="15_ymop8"]
+[ext_resource type="Texture2D" uid="uid://dj3ok74dclr8e" path="res://Assets/Tokens/TokenSprites/Earth4.png" id="16_ibjca"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Air1" type="Sprite2D" parent="."]
+position = Vector2(16, 16)
+texture = ExtResource("1_r8k4x")
+
+[node name="Air2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("2_7f1mq")
+
+[node name="Air3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("3_capjd")
+
+[node name="Air4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("4_0a647")
+
+[node name="Fire1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("5_08yrc")
+
+[node name="Fire2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("6_ycxwt")
+
+[node name="Fire3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("7_nf11r")
+
+[node name="Fire4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("8_tvrj8")
+
+[node name="Water1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("9_2n75r")
+
+[node name="Water2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("10_riiu4")
+
+[node name="Water3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("11_lf2fa")
+
+[node name="Water4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("12_fw74w")
+
+[node name="Earth1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("13_84ww0")
+
+[node name="Earth2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("14_qeimg")
+
+[node name="Earth3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("15_ymop8")
+
+[node name="Earth4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(16, 16)
+texture = ExtResource("16_ibjca")
